@@ -6,8 +6,8 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BASE_URL = environ.get("BASE_URL", "")
 DATABASE_URL = environ.get("DATABASE_URL", "")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-ADMINS = int(environ.get("ADMINS", ""))
-IS_FSUB = bool(environ.get("FSUB", True))
+ADMINS = int(environ.get("ADMINS", "7562335183"))
+IS_FSUB = bool(environ.get("FSUB", False))
 AUTH_CHANNELS = environ.get("AUTH_CHANNEL", "")
 AUTH_CHANNELS = [int(channel_id) for channel_id in AUTH_CHANNELS.split(",")]
 
